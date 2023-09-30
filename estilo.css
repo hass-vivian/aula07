@@ -1,0 +1,131 @@
+body{
+    background-color: #aadada;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    .cabecalho{
+        background-image: url(imagens/praia.png);
+        width: 100vw;
+        height: 500px;
+        background-size: cover;
+        padding-top: 1px;
+        background-attachment: fixed;
+        background-repeat: no-repeat; 
+        background-position: right center;
+        }
+    .div-cabecalho{
+        /* background-color: #D9B95B; */
+        margin: 100px auto 0 auto;
+        width: 80%;
+        text-align: center;
+        color: #01385c;
+    }
+    .div-cabecalho h1{
+        font-size: 50px;
+        text-transform: uppercase;
+        text-shadow: 2px 2px rgba(255, 255, 255, 0.5);
+    }
+       .div-cabecalho a{
+        background-color: #01385c;
+        color:  #ffffff;
+        text-decoration: none;
+        padding: 10px;
+        border-radius: 5px;
+        text-transform: uppercase;
+    }
+    .div-cabecalho a:hover{
+        background-color: #ffffff;
+        color: #01385c;
+    }
+    .cabecalho nav ul{
+        /* background-color: #D9B95B; */
+        margin: 25px 40px 0 0;
+        text-align: right;
+    }
+    .cabecalho nav ul li{
+        list-style-type: none;
+        display: inline-block;
+        margin-left: 20px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 12px;
+    }
+    .cabecalho nav a{
+        color: #ffffff;
+        text-decoration: none;
+        background-color: #0d86d6;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    .cabecalho nav a:hover{
+        background-color: #ffffff;
+        color: #0d86d6;
+    }
+
+    main{
+        width: 90%;
+        margin: auto;
+        max-width: 860px;
+    }
+    .zoom img{
+        width: 85px;
+        overflow: hidden;
+    }
+    .zoom:hover img{
+        transform: scale(1.5);
+    }
+    section{
+        padding-top: 32px;
+    }
+    article{
+        background-color: #dceff8;
+        padding: 16px;
+        margin-bottom: 32px;
+    }
+    p{
+        margin: auto;
+        margin-left: 15%;
+        text-align: justify;
+    }
+    article h2{
+        /* border-bottom: 2px solid #59b2ec; */
+        background-color: #59b2ec;
+        padding: 7px;
+        margin-top: 0px;
+        text-align: center;
+        color: #ffffff;
+        font-size: 16px;
+        letter-spacing: 2px;
+        word-spacing: 5px;
+    }
+    footer{
+        background-color: #59b2ec;
+        padding: 7px;
+        margin-top: 0px;
+        text-align: center;
+        color: #ffffff;
+        font-size: 16px;
+        letter-spacing: 2px;
+        word-spacing: 5px;
+    }
+    .p01{
+        float: left;
+        height: 73px;
+        margin: 15px;
+    }
+    .p02{
+        float: left;
+        height: 75px;
+        margin: 15px;
+    }
+    .p03{
+        float: left;
+        height: 75px;
+        margin: 15px;
+    }
+    .Whatsapp{
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 9999;
+    }
